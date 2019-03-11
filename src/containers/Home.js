@@ -32,6 +32,9 @@ export default class Home extends Component<Props> {
         <TouchableOpacity onPress={() => this.props.navigation.navigate('Flip')}>
           <Text>Flip</Text>
         </TouchableOpacity>
+        <TouchableOpacity onPress={() => this.props.navigation.navigate('MiHome')}>
+          <Text>Mi Home</Text>
+        </TouchableOpacity>
       </View>
     );
   }

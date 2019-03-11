@@ -9,6 +9,7 @@ import Sequence from './containers/Sequence';
 import Stagger from './containers/Stagger';
 import Parallel from './containers/Parallel';
 import Flip from './containers/Flip';
+import MiHome from './containers/MiHome';
 
 const AppNavigator = createStackNavigator({
   Home: {
@@ -40,6 +41,9 @@ const AppNavigator = createStackNavigator({
   },
   Flip: {
     screen: Flip
+  },
+  MiHome: {
+    screen: MiHome
   }
 });
 
